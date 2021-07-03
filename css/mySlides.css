@@ -1,0 +1,290 @@
+/* 
+CSS for xaringan slides
+Author: Joseph V. Casillas
+Updated: 1/21/2017
+*/
+
+
+
+/*
+MY CHANGES
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Maven+Pro);
+
+
+/* Add image and change bg color */
+.title-slide {
+  background-image: url(../../../site_libs/assets/img/welcome.png), url(../../../site_libs/assets/img/0_middlebury_seal.png);;
+  background-position: 50% -70%, 95% 92%;
+  background-size: 1220px, 70px; 
+  background-color: #fff;
+  padding-left: 100px;  /* delete this for 4:3 aspect ratio */
+}
+
+/* H1 fonts */
+.title-slide h1 {
+  color: #515151;
+  padding-top: 350px;
+  font-weight: normal;
+  font-size: 55px;
+  line-height: 0.05;
+  text-align: left;
+  text-shadow: none;
+  padding-bottom: 18px;
+  margin-bottom: 18px;
+}
+
+/* H2 fonts */
+.title-slide h2 {
+  color: #cc0033;
+  font-size: 35px;
+  text-align: left;
+  text-shadow: none;
+  padding-top: 10px;
+  margin-top: 0px;
+}
+
+/* H3 fonts */
+.title-slide h3 {
+  font-size: 28px;
+  font-weight: normal;
+  color: #666666;
+  text-align: left;
+  text-shadow: none;
+  padding: 0px;
+  margin: 0px;
+  line-height: 1;
+}
+
+.title-slide .remark-slide-number {
+  text-shadow: none;
+  display: none;
+}
+
+
+/* Font coloring options */
+
+/* Make bold syntax compile to red*/
+strong {
+  color: #cc0033 !important;
+}
+
+strike {
+  text-decoration: line-through;
+}
+
+blue {
+  color: #0000CC;
+  font-weight: bold;
+}
+
+grey {
+  color: #515151;
+}
+
+white {
+  color: white;
+}
+
+black {
+  color: black;
+}
+
+red {
+  color: #cc0033;
+}
+/* Add padding to all slides for 16:9 aspect ration */
+.remark-slide-content {
+  padding-left: 100px;  /* delete this for 4:3 aspect ratio */
+}
+
+
+h1 {
+  color: #cc0033;
+  text-shadow: none;
+}
+
+h3 {
+  color: #515151;
+}
+
+.big {
+  font-size: 2.8em;
+}
+
+.big2 {
+  font-size: 3.2em;
+  line-height: 1.5;
+  text-align: left;
+  padding-left: 20px;
+  margin-left: 20px;
+}
+
+.big3 {
+  font-size: 3.2em;
+  line-height: 1.3;
+  text-align: left;
+  padding-left: 20px;
+  margin-left: 20px;
+}
+
+.jumbo {
+	font-size: 4em;
+	color: #515151;
+}
+
+.jumbo2 {
+  font-size: 5.9em;
+  color: black;
+  position: fixed;
+  top: 65px;
+  left: 110px;
+}
+
+.jumbo3 {
+  font-size: 4em;
+  color: black;
+  line-height: 1.3;
+  text-align: left;
+  padding-left: 20px;
+  margin-left: 20px;
+  text-shadow: none;
+}
+
+.huge {
+  font-size: 10em;
+  color: black;
+  position: fixed;
+  top: 0;
+  left: 110px;
+}
+
+.huge2 {
+  font-size: 7em;
+  color: black;
+  position: fixed;
+  top: 30px;
+  left: 15px;
+}
+
+.myfootnote {
+	position: fixed;
+	bottom: 5px;
+}
+
+
+
+
+/* visual elements */
+
+/* horizontal stripes */
+#hStripBlue {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: lightblue;
+  height: 23%;
+}
+
+#hStripBlack {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  height: 35%;
+}
+
+#hStripBlackTop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 35%;
+  width: 100%;
+  background-color: black;
+}
+
+#hStripYellow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 23%;
+  width: 100%;
+  background-color: yellow;
+}
+
+#hStripWhite {
+  position: fixed;
+  top: 250px;
+  left: 0;
+  height: 23%;
+  width: 100%;
+  background-color: white;
+}
+
+#hStripBorder {
+  border:solid thick black; 
+  height: 98%;
+  width: 99.5%;
+  border-radius: 0em; 
+  border-width: 3px; 
+}
+
+#hBoxYellow {
+  position: fixed;
+  top: 200px;
+  left: 10;
+  height: 35%;
+  width: 47%;
+  background-color: #FFF836;
+}
+
+#hBoxYellowWide {
+  position: fixed;
+  top: 200px;
+  left: 10;
+  height: 35%;
+  width: 65%;
+  background-color: #FFF836;
+}
+
+#vBoxBlueLeft {
+  position: fixed;
+  top: 0;
+  left: 100px;
+  height: 100%;
+  width: 30%;
+  background-color: lightblue;
+}
+
+#vBoxBlueRight {
+  position: fixed;
+  top: 0;
+  right: 100px;
+  height: 100%;
+  width: 30%;
+  background-color: lightblue;
+}
+
+#twoThirdBox {
+  background-color: #FFF836;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 66%;
+}
+
+#vColBlueRight {
+  position: fixed;
+  top: 0;
+  right: 0px;
+  height: 100%;
+  width: 30%;
+  background-color: lightblue;
+  text-align: center;
+  text-shadow: none;
+}
+
