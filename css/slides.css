@@ -15,7 +15,7 @@ MY CHANGES
 
 /* Add image and change bg color */
 .title-slide {
-  background-image: url(../../../site_libs/assets/img/welcome.png), url(../../../site_libs/assets/img/0_middlebury_seal.png);;
+  background-image: url(https://raw.githubusercontent.com/midd-teaching/pc-assets/main/img/welcome.png), url(https://raw.githubusercontent.com/midd-teaching/pc-assets/main/img/0_middlebury_seal.png);
   background-position: 50% -70%, 95% 92%;
   background-size: 1220px, 70px; 
   background-color: #fff;
