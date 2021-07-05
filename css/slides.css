@@ -133,6 +133,11 @@ h3 {
   font-size: 5.2em;
 }
 
+.bigTrans {
+  font-size: 5.2em;
+  opacity:  0.0;
+}
+
 .jumbo {
 	font-size: 4em;
 	color: #515151;
