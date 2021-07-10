@@ -232,6 +232,8 @@ h3 {
   height: 50%;
   width: 100%;
   background-color: yellow;
+  border: solid #5B6DCD 2px;
+  border-color: black;
 }
 
 #hStripWhite {
