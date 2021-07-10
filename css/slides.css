@@ -229,6 +229,15 @@ h3 {
   background-color: yellow;
 }
 
+#hStripYellowBottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 23%;
+  width: 100%;
+  background-color: yellow;
+}
+
 #hStripThickYellow {
   position: fixed;
   top: 0;
