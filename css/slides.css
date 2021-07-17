@@ -98,6 +98,7 @@ black {
 red {
   color: #cc0033;
 }
+
 /* Add padding to all slides for 16:9 aspect ration */
 .remark-slide-content {
   padding-left: 100px;  /* delete this for 4:3 aspect ratio */
@@ -242,7 +243,7 @@ h3 {
   position: fixed;
   top: 0;
   left: 0;
-  height: 50%;
+  /*height: 50%; */
   width: 100%;
   background-color: yellow;
   border: solid #5B6DCD 2px;
