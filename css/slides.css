@@ -194,6 +194,16 @@ h3 {
 /* visual elements */
 
 /* horizontal stripes */
+#hStrip {
+  position: fixed;
+  top: 0;
+  left: 0;
+  /*height: 50%; */
+  width: 100%;
+  border: solid #5B6DCD 2px;
+  border-color: black;
+}
+
 #hStripBlue {
   position: fixed;
   top: 0;
